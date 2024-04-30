@@ -1,0 +1,67 @@
+{
+    "About" : {
+        "title" : "about seoof",
+        "story" : "Our story",
+        "description" : "this is a seoof description example",
+        "read" : "Read more"
+    },
+    "MainImage" : {
+        "discover" : "Discover",
+        "perfect" : "Your Parfect",
+        "fragrance" : "Fragrance",
+        "slogan" : "The most advanced parfume in the world",
+        "buy" : "Buy Now",
+        "view" :"View Services"
+    },
+    "navbar" : {
+        "search" : "Search",
+        "reseller" : "Become a Reseller"
+    },
+    "services" : {
+        "title" : "Why choose us?",
+        "description" : "We provide various international perfumes",
+        "banner-title" : "fragrant essence in a bottle",
+        "banner-desc" : "Great Perfumes with Affordable Prices",
+        "buy" : "Buy Now"
+    },
+    "sale" : {
+        "holiday" : "Holiday",
+        "sale" : "Sale",
+        "floral" : "A floral fragrance with notes of jasmine & rose",
+        "delivery" : "Free Home Delivery",
+        "zwilling" : "Select Zwilling Cutlery",
+        "explore" : "Explore Now",
+        "upto" : "up to",
+        "off" : "off"
+    },
+    "contact" : {
+        "title" : "Contact us",
+        "feel-free" : "Feel free to ask for details, do not save any questions!",
+        "fullname" : "Full Name",
+        "your-name" : "Your name",
+        "email" : "Email Address",
+        "subject" : "Subject",
+        "message" : "Message",
+        "what-mind" : "What's on your mind?",
+        "send" : "Send Message",
+        "get-touch" : "Get in touch today!",
+        "description" : "Ready to elevate your business with Seoof ? Contact us now to explore our catalog, discuss partnership opportunities. Your journey to becoming a fragrance connoisseur starts with a simple message!",
+        "success-message" : "Your message is successfully sent!"
+    },
+    "footer" : {
+        "get-touch" : "Get in touch",
+        "description" : "Contact us and begin an exceptional fragrance journey today!",
+        "newsletter" : "Newsletter",
+        "links" : "Links",
+        "services" : "Services",
+        "categories" : "Categories",
+        "contact-us" : "Contact us",
+        "buy" : "Buy Now",
+        "contact" : "Contact",
+        "address" : "Address",
+        "company" : "Seoof Trading Company",
+        "phone" : "Phone",
+        "email" : "Email",
+        "email-addr" : "Email Address"
+    }
+}

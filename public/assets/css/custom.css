@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Eurostile';
+    src: url('/assets/fonts/eurostile-lt/EurostileLtStd-Medium.otf') format('opentype');
+    /* Add additional font formats here if needed */
+}
+@font-face {
+    font-family: 'Gess';
+    src: url('/assets/fonts/ge-ss/GESSTwo-Medium.otf') format('opentype');
+    /* Add additional font formats here if needed */
+}
+
+h1, h2, h3 {
+    font-family: inherit !important;
+}
+
+/* body {
+    font-family: 'Eurostile', sans-serif;
+} */
