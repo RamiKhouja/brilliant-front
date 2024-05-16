@@ -1,38 +1,38 @@
 {
-    "About" : {
-        "title" : "about seoof",
-        "story" : "Our story",
-        "description" : "this is a seoof description example",
-        "read" : "Read more"
+    "about" : {
+        "about" : "ABOUT",
+        "brilliant": "BRILLIANT",
+        "partner" : "Your Partner",
+        "success" : "in Success",
+        "description" : "Banner watches also up day. Talk market minimize knowledge ballpark see cadence who's say. One ground food feelers window finance like. Third alarming race gmail boy got alarming involved welcome watches. Forward container eager adoption your join move sky jumping.",
+        "years" : "YEARS",
+        "range": "Range of Products",
+        "experience": "Experience in Tech",
+        "countries": "Countries",
+        "team": "Team Members"
     },
-    "MainImage" : {
-        "discover" : "Discover",
-        "perfect" : "Your Parfect",
-        "fragrance" : "Fragrance",
-        "slogan" : "The most advanced parfume in the world",
-        "buy" : "Buy Now",
-        "view" :"View Services"
+    "header" : {
+        "home" : "Home",
+        "strategies": "Strategies",
+        "about-us": "About us",
+        "vision" : "Vision",
+        "products" : "Products",
+        "contact-us" : "Contact us"
     },
-    "navbar" : {
-        "search" : "Search",
-        "reseller" : "Become a Reseller"
-    },
-    "services" : {
-        "title" : "Why choose us?",
-        "description" : "We provide various international perfumes",
-        "banner-title" : "fragrant essence in a bottle",
-        "banner-desc" : "Great Perfumes with Affordable Prices",
-        "buy" : "Buy Now"
-    },
-    "sale" : {
-        "holiday" : "Holiday",
-        "sale" : "Sale",
-        "floral" : "A floral fragrance with notes of jasmine & rose",
-        "delivery" : "Free Home Delivery",
-        "zwilling" : "Select Zwilling Cutlery",
-        "explore" : "Explore Now",
-        "upto" : "up to",
-        "off" : "off"
+    "global" : {
+        "get-started": "Get Started",
+        "watch-video": "Watch Video",
+        "our-approach": "Our Approach",
+        "show-more": "Show More",
+        "our-timeline": "Our Timeline",
+        "ready-launch": "Ready to Launch?",
+        "join-today": "Join us today and experience the power of AI text creation for yourself!",
+        "enter-email": "Enter your email address",
+        "subscribe": "Subscribe",
+        "send": "Send",
+        "fullname":"Full Name",
+        "email": "Email",
+        "your-message": "Your Message"
     },
     "contact" : {
         "title" : "Contact us",

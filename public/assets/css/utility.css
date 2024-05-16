@@ -1829,6 +1829,10 @@
 	left: 5em;
 }
 
+.p-x-1-75 {
+	padding: 0 1.75em;
+}
+
 .padding-unset {
 	padding: unset;
 }

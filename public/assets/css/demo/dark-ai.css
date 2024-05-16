@@ -305,7 +305,7 @@
 
 /* ***** Newsletter ***** */
 .newsletter .container {
-	max-width: 530px;
+	max-width: 680px;
 }
 
 @media (min-width: 992px) {

@@ -13,6 +13,74 @@ h1, h2, h3 {
     font-family: inherit !important;
 }
 
+.shadow-txt {
+    text-shadow: 0px 0px 12px #ec5af3;
+}
+.shadow-txt-primary {
+    text-shadow: 0px 0px 12px #8777E0;
+}
+
+.glow-txt {
+    text-shadow: 0px 0px 12px #ec5af3;
+    animation: glowFade 1s infinite alternate;
+}
+.testimonial .lqd-carousel-slides-numbers {
+    direction: ltr;
+    font-family: 'Eurostile' !important;
+}
+
+.flip-img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@keyframes glowFade {
+    0% {
+        text-shadow: 0px 0px 12px #8777E0;
+    }
+    100% {
+        text-shadow: 0px 0px 12px #ec5af3;
+    }
+}
+
 /* body {
     font-family: 'Eurostile', sans-serif;
 } */
+
+.ld-sf textarea {
+	transition-property: opacity, visibility;
+	transition-duration: 0.3s;
+}
+
+.ld-sf textarea {
+	padding: 0.75em 1.75em;
+	line-height: 1.5em;
+	/*transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;*/
+}
+
+.ld-sf textarea:focus-visible {
+	border: unset !important;
+    border-width: 0 !important;
+    outline: unset;
+    outline-offset: unset;
+}
+
+.ld-sf textarea::-webkit-input-placeholder {
+	color: inherit;
+}
+
+.ld-sf textarea::-moz-placeholder {
+	color: inherit;
+}
+
+.ld-sf textarea:-moz-placeholder {
+	color: inherit;
+}
+
+.ld-sf textarea:-ms-input-placeholder {
+	color: inherit;
+}
+
+button.lity-close {
+    color: #FFF !important;
+}

@@ -15,9 +15,7 @@ export default function Home() {
   const locale = useLocale();
   const token = process.env.API_TOKEN;
   const base_url = process.env.BASE_URL;
-  // const t_intro = useTranslations('services');
-  // const t_about = useTranslations('About');
-  // const t_sale = useTranslations('sale');
+  const t = useTranslations('global');
   return (
     <>
     <div dir={locale==='ar'?('rtl'):('ltr')}>
@@ -25,19 +23,28 @@ export default function Home() {
           <div id="lqd-contents-wrap" style={{paddingTop: 80}}>
 
             {/* Start Banner */}
-              <Intro locale={locale}/>
+              <Intro locale={locale} t={t}/>
             {/* End Banner */}
 
             {/* Start Parallax BG */}
-            <section id="parallax-section" className="lqd-section parallax-bg bg-before w-full min-h-100vh flex flex-col items-center justify-center bg-no-repeat bg-bottom-center bg-cover p-10" style={{backgroundImage: 'url(/assets/images/demo/dark-ai/bg/parallax-bg.jpg)'}} data-parallax="true" data-parallax-options='{"ease": "linear", "start": "top bottom", "end": "bottom+=0px top"}' data-parallax-from='{"y": "0px", "scaleX" : 1, "scaleY" : 1}' data-parallax-to='{"y": "-300px", "scaleX" : 0.3, "scaleY" : 0.3}'></section>
+            <section 
+              id="parallax-section" 
+              className="lqd-section parallax-bg bg-before w-full min-h-100vh flex flex-col items-center justify-center bg-no-repeat bg-bottom-center bg-cover p-10" 
+              style={{backgroundImage: 'url(/assets/images/demo/dark-ai/bg/parallax-bg.jpg)'}} 
+              data-parallax="true" 
+              data-parallax-options='{"ease": "linear", "start": "top bottom", "end": "bottom+=0px top"}' 
+              data-parallax-from='{"y": "0px", "scaleX" : 1, "scaleY" : 1}' 
+              data-parallax-to='{"y": "-300px", "scaleX" : 0.3, "scaleY" : 0.3}'
+              >
+            </section>
             {/* End Parallax BG */}
 
             {/* Start Features */}
-              <Strategies locale={locale}/>
+              <Strategies locale={locale}  t={t}/>
             {/* End Features */}
 
             {/* Start How It Works */}
-              <About locale={locale}/>
+              <About locale={locale}  t={t}/>
 
             {/* End How It Works */}
             
@@ -54,11 +61,11 @@ export default function Home() {
             {/* End Testimonial */}
 
             {/* Start faq */}
-              <Events locale={locale}/>
+              <Events locale={locale} t={t}/>
             {/* End faq */}
 
             {/* Start Newsletter */}
-              <Newsletter/>
+              <Newsletter locale={locale}/>
             {/* End Newsletter */}
 
           </div>

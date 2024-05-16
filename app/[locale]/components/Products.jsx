@@ -16,7 +16,7 @@ async function getCompanies(locale) {
 export default async function Products({locale}) {
   const companies = await getCompanies(locale)
   return (
-    <section className="lqd-section testimonial bg-no-repeat transition-border py-75" style={{backgroundImage: 'url(/assets/images/demo/dark-ai/testimonial/testimonial-bg1.png)'}} data-custom-animations="true" data-ca-options='{"animationTarget": ".animation-element, .animation-element .split-inner .lqd-chars", "duration" : 800, "delay" : 70, "ease": "expo.out", "initValues": {"scaleX" : 0.8, "scaleY" : 0.8, "rotationZ" : 3, "opacity" : 0} , "animations": {"scaleX" : 1, "scaleY" : 1, "rotationZ" : 0, "opacity" : 1}}'>
+    <section id='products' className="lqd-section testimonial bg-no-repeat transition-border py-75" style={{backgroundImage: 'url(/assets/images/demo/dark-ai/testimonial/testimonial-bg1.png)'}} data-custom-animations="true" data-ca-options='{"animationTarget": ".animation-element, .animation-element .split-inner .lqd-chars", "duration" : 800, "delay" : 70, "ease": "expo.out", "initValues": {"scaleX" : 0.8, "scaleY" : 0.8, "rotationZ" : 3, "opacity" : 0} , "animations": {"scaleX" : 1, "scaleY" : 1, "rotationZ" : 0, "opacity" : 1}}'>
               <div className="container">
                 <div className="row justify-center transition-bg">
                   <div className="col col-12 col-lg-9 flex flex-col gap-40">
@@ -30,18 +30,17 @@ export default async function Products({locale}) {
                           <div className="flickity-slider flex w-full h-full relative items-start text-center">
                             {companies.data.map((company, index)=> (
                             <div key={index} className="carousel-item flex flex-col justify-center px-30 text-24 leading-30">
-                              <div className="ld-fancy-heading relative max-w-full text-center animation-element mb-1/2em">
+                              <div className="ld-fancy-heading relative max-w-full text-center animation-element mb-1/5em">
                                 {company.attributes.logo.data && (
                                   <img width={200} src={process.env.BASE_URL+company.attributes.logo.data.attributes.url}/>
                                 )}
                               </div>
-                              <div className="ld-fancy-heading relative max-w-full text-center animation-element mb-1/5em">
+                              {/* <div className="ld-fancy-heading relative max-w-full text-center animation-element mb-1/5em">
                                 <h1 className="ld-fh-element relative m-0" style={{fontSize: 64}}  data-split-options='{"type": "chars, words"}'>
-                                  {/* <span className="font-accent font-normal"> </span> */}
                                   {company.attributes.name}
                                 </h1>
-                              </div>
-                              <p className="mb-1/5em">{company.attributes.description}</p>
+                              </div> */}
+                              <p className="mb-1/5em text-yellow-100">{company.attributes.description}</p>
                               {/* <h6 className="text-primary mt-1em mb-0/5em">Daniel Crack, Envato</h6> */}
                             </div>
                             ))}

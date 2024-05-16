@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer id="site-footer" className="main-footer pt-120 px-5percent bg-black" data-sticky-footer="true" data-sticky-footer-options='{"shadow": "1"}'>
+    <footer id="site-footer" className="main-footer px-5percent bg-black" data-sticky-footer="true" data-sticky-footer-options='{"shadow": "1"}'>
           <div className="container-fluid flex flex-wrap p-0">
-            <div className="w-20percent flex flex-col gap-20 p-10 transition-bg module-logo lg:w-full lg:flex-row">
+            {/* <div className="w-20percent flex flex-col gap-20 p-10 transition-bg module-logo lg:w-full lg:flex-row">
               <div className="lqd-imggrp-single block relative">
                 <div className="lqd-imggrp-img-container inline-flex relative items-center justify-center">
                   <figure className="w-full relative">
@@ -17,8 +17,8 @@ function Footer() {
                   <span data-text="EN" className="btn-txt">EN </span>
                 </a>
               </div>
-            </div>
-            <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
+            </div> */}
+            {/* <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
               <div className="ld-fancy-heading relative">
                 <h6 className="ld-fh-element relative mb-0/5em text-15 font-medium">Company</h6>
               </div>
@@ -47,8 +47,8 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
+            </div> */}
+            {/* <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
               <div id="ld-fancy-heading-6447b46bcde9f" className="ld-fancy-heading relative">
                 <h6 className="ld-fh-element relative mb-0/5em text-15 font-medium">Contact</h6>
               </div>
@@ -71,8 +71,8 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
+            </div> */}
+            {/* <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
               <div id="ld-fancy-heading-6447b46bd5918" className="ld-fancy-heading relative">
                 <h6 className="ld-fh-element relative mb-0/5em text-15 font-medium">Pages</h6>
               </div>
@@ -100,8 +100,8 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
+            </div> */}
+            {/* <div className="w-20percent flex flex-col gap-25 p-10 transition-bg lg:w-25percent sm:w-50percent">
               <div id="ld-fancy-heading-6447b46bdd7a2" className="ld-fancy-heading relative">
                 <h6 className="ld-fh-element relative mb-0/5em text-15 font-medium">Company</h6>
               </div>
@@ -124,10 +124,14 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="w-full flex justify-between items-center p-10 mt-70 mb-40 transition-bg lg:flex-wrap">
+            </div> */}
+            <div className="w-full flex justify-between items-center p-10 mt-20 mb-20 transition-bg lg:flex-wrap">
               <div className="ld-fancy-heading relative w-25percent lg:w-full lg:text-center">
-                <p className="ld-fh-element relative mb-0/5em text-12 leading-20 tracking-0/1 text-white-30">2023 AIHub. All images are for demo purposes only. These Terms will be applied fully and affect.</p>
+              <div className="lqd-imggrp-img-container inline-flex relative items-center justify-center">
+                  <figure className="w-full relative">
+                    <img width="100" src="/assets/images/logo-white.png" alt="Dark AI"/>
+                  </figure>
+                </div>
               </div>
               <div className="lqd-fancy-menu lqd-custom-menu relative lqd-menu-td-none module-social lg:w-full lg:text-center">
                 <ul className="reset-ul inline-ul">
