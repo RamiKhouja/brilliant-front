@@ -57,7 +57,7 @@ export default async function Strategies({locale, t}) {
             <img src="/assets/images/custom/split.png" className='w-1/2 mb-50' alt="" />
         </div>
         <div className="container" id="features">
-            <h1 className="lqd-text-reveal-el text-78 mt-0 mb-70 text-yellow-100 text-center" 
+            <h1 className="lqd-text-reveal-el lg-text-78 mt-0 mb-70 text-yellow-100 text-center" 
                 data-parallax="true" data-parallax-options='{"parallaxTargets": ".lqd-chars, figure", "start": "top 70%", "end": "bottom bottom", "scrub" : 3}' data-parallax-from='{"opacity" : 0.2}' data-parallax-to='{"opacity" : 1, "stagger": {"from": "start", "each" : 1}}'
             >
                 {t('our-approach')}

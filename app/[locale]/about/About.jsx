@@ -74,7 +74,7 @@ export default async function AboutComponent({locale, t}) {
               </div>
             </div>
             <div className="container">
-                <h3 className="lqd-text-reveal-el text-78 text-yellow-100 text-center mb-100">
+                <h3 className="lqd-text-reveal-el lg-text-78 text-yellow-100 text-center mb-100">
                   {t("about")}<br/>{t("brilliant")}
                 </h3>
 

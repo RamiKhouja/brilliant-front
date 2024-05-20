@@ -43,7 +43,7 @@ export default async function Vision({locale}) {
                       <div>
                         <img src="/assets/images/custom/white-arrow-right.png" width={200} alt="" />
                       </div>
-                      <h3 className="lqd-text-reveal-el text-78 text-yellow-100 text-center" 
+                      <h3 className="lqd-text-reveal-el lg-text-78 text-yellow-100 text-center" 
                         
                       >
                         {vision.data.attributes.title}
@@ -72,7 +72,7 @@ export default async function Vision({locale}) {
                   <div className="col col-12 p-0" >
                     <div className="elementor-widget-container flex justify-between items-center mb-40">
                       <div style={{width: 200}}></div>
-                      <h3 className="lqd-text-reveal-el text-78 text-yellow-100 text-center">
+                      <h3 className="lqd-text-reveal-el lg-text-78 text-yellow-100 text-center">
                         {mission.data.attributes.title}
                       </h3>
                       <img src="/assets/images/custom/arrow-left.png" width={200} alt="" />

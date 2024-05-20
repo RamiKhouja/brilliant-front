@@ -84,3 +84,9 @@ h1, h2, h3 {
 button.lity-close {
     color: #FFF !important;
 }
+
+@media (min-width: 992px) {
+    .lg-text-78 { 
+        font-size: 78px;
+    }
+}

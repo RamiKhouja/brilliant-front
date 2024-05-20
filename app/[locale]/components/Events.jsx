@@ -21,7 +21,7 @@ export default async function Events({locale, t}) {
     <section className="lqd-section faq py-80" id="faq" data-custom-animations="true" data-ca-options='{"animationTarget": ".animation-element, .animation-element .split-inner .lqd-chars", "duration" : 1000, "delay" : 70, "ease": "expo.out", "initValues": {"y": "30px", "scaleX" : 0.8, "scaleY" : 0.8, "opacity" : 0} , "animations": {"y": "0px", "scaleX" : 1, "scaleY" : 1, "opacity" : 1}}'>
       <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
         <div className="ml-0 md:ml-12 w-full sticky">
-          <h3 className="lqd-text-reveal-el text-78 text-yellow-100 text-center mb-20">
+          <h3 className="lqd-text-reveal-el lg-text-78 text-yellow-100 text-center mb-20">
           {t('our-timeline')}
           </h3>
           <div className="container mx-auto w-full h-full">
