@@ -23,7 +23,7 @@ function Header() {
     }
   return (
     <header id="site-header" className="main-header main-header-overlay"  dir={locale=='ar'?'rtl':'ltr'}>
-        <div className="w-full static hidden lg:visible lg:flex xl:visible xl:flex items-center px-35 md:hidden">
+        <div className="w-full static hidden lg:visible lg:flex xl:visible xl:flex items-center px-35 md:hidden xxl:flex">
           <div className="w-25percent static flex flex-col items-start pointer-events-auto p-10">
             <div className="module-logo flex navbar-brand-plain py-30" id="size-logo">
               <a className="navbar-brand flex p-0 relative" href="/" rel="home">

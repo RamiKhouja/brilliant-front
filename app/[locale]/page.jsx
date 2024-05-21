@@ -49,7 +49,7 @@ export default function Home() {
             {/* End How It Works */}
             
             {/* Start Carousel Button */}
-              <CarouselBtn/>
+              <CarouselBtn t={t}/>
             {/* End Carousel Button */}
 
             {/* Start Float Text */}

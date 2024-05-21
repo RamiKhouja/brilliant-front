@@ -44,7 +44,7 @@ export default async function Events({locale, t}) {
               ></div>
               {events.data.map((ev, index) => 
                 index % 2 == 0 ? (
-              <div className={`mb-8 flex justify-between flex-row-reverse items-center w-full ${locale=='en'?'left-timeline' : 'right-timeline'}`}>
+              <div key={index} className={`mb-8 flex justify-between flex-row-reverse items-center w-full ${locale=='en'?'left-timeline' : 'right-timeline'}`}>
                 <div className="order-1 w-5-12"></div>
                 <div className="order-1 w-5-12 px-1 py-4 text-right">
                   <p 

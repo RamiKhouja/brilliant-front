@@ -85,6 +85,10 @@ button.lity-close {
     color: #FFF !important;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 @media (min-width: 992px) {
     .lg-text-78 { 
         font-size: 78px;

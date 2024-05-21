@@ -32,7 +32,16 @@
         "send": "Send",
         "fullname":"Full Name",
         "email": "Email",
-        "your-message": "Your Message"
+        "your-message": "Your Message",
+        "mobile-app": "Mobile App Development",
+        "web-dev": "Web Development",
+        "ecom": "Ecommerce Development",
+        "digital-trans": "Digital Transformation",
+        "blockchain": "Blockchain",
+        "ar-vr": "AR VR & Metaverse",
+        "game-dev": "Game Development",
+        "workflow-auto": "Workflow Automation",
+        "ai-ml": "AI & ML Implementation"
     },
     "contact" : {
         "title" : "Contact us",
