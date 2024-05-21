@@ -63,7 +63,7 @@ export default async function Events({locale, t}) {
                 </div>
               </div>
                 ):(
-              <div className={`mb-8 flex justify-between items-center w-full ${locale=='en'?'right-timeline' : 'left-timeline'}`}>
+              <div key={index} className={`mb-8 flex justify-between items-center w-full ${locale=='en'?'right-timeline' : 'left-timeline'}`}>
                   <div className="order-1" style={{width: '59%'}}></div>
                   <div className={`order-1 px-1 py-4 ${locale=='en'?'text-left' : 'text-right'}`} style={{width: '41%'}}>
                     <p 
