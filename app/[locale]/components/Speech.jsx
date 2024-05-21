@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react'
 
 async function getSpeech(locale) {
@@ -63,7 +62,7 @@ export default async function Speech({locale}) {
                 className="w-full relative"
                 data-reveal-options='{"direction": "tb"}'
                 >
-                <Image
+                <img
                     className="rounded-30 w-560"
                     width={1120}
                     height={1320}

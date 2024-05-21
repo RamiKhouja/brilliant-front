@@ -1,7 +1,5 @@
-import Link from 'next/link';
 import React from 'react'
 import Speech from './Speech';
-import Image from 'next/image';
 
 async function getAbout(locale) {
     const token = process.env.API_TOKEN;
@@ -53,7 +51,7 @@ export default async function About({locale, t}) {
                     //data-reveal="true"
                     data-reveal-options='{"direction": "tb"}'
                     >
-                    <Image
+                    <img
                         className={`rounded-30 w-560 ${locale=='ar' && 'flip-img'}`}
                         width={1120}
                         height={1320}

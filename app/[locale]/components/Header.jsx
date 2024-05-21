@@ -38,19 +38,19 @@ function Header() {
             <div className={`lqd-fancy-menu lqd-custom-menu lqd-menu-td-none lqd-custom-menu-has-btn flex items-center fixed bg-white-10 rounded-10 pb-5 ${locale=='ar' ? 'pl-10 pr-20' : 'pr-10 pl-20'}`}>
               <ul className="reset-ul inline-ul link-white-40 link-14" data-localscroll="true" data-localscroll-options='{"itemsSelector":">li > a", "trackWindowScroll": true, "includeParentAsOffset": false}'>
                 <li className={`menu-item-object-page menu-item-home current-menu-item ${locale=='ar'?'ml-40':'mr-40'}`}>
-                  <a href="#banner">{t('home')}</a>
+                  <a href="/">{t('home')}</a>
                 </li>
                 <li className="mx-20">
-                  <a href="#features">{t('strategies')}</a>
+                  <a href="/#features">{t('strategies')}</a>
                 </li>
                 <li className="mx-20">
-                  <a href="#about">{t('about-us')}</a>
+                  <a href="/#about">{t('about-us')}</a>
                 </li>
                 <li className="mx-20">
-                  <a href="#vision">{t('vision')}</a>
+                  <a href="/#vision">{t('vision')}</a>
                 </li>
                 <li>
-                  <a href="#products">{t('products')}</a>
+                  <a href="/#products">{t('products')}</a>
                 </li>
               </ul>
               <div className={`lqd-custom-menu-btn-wrap mt-5 ${locale=='ar'?'mr-40':'ml-40'}`}>
