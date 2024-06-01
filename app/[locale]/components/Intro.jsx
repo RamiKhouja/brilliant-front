@@ -47,12 +47,12 @@ export default async function Intro({locale, t}) {
             </div>
         </div>
         <div className="flex flex-row flex-wrap justify-center mt-10 p-10" dir='ltr'>
-            <div className="max-w-full banner-btn-left animation-element">
-            <a href="#features" className="btn btn-solid btn-md btn-hover-txt-switch btn-hover-txt-switch-y btn-icon-shaped text-17 font-medium bg-primary text-white rounded-6 rounded-right-0" data-localscroll="true">
-                <span data-text="Get Started" className="btn-txt" data-transition-delay="true" data-delay-options='{"elements":  ".lqd-chars", "delayType":  "animation", "startDelay":  0, "delayBetween":  32.5}'>{t('get-started')}</span>
+            <div className="max-w-full  animation-element">
+            <a href="#features" className="btn btn-solid btn-md btn-hover-txt-switch btn-hover-txt-switch-y btn-icon-shaped text-17 font-medium bg-primary text-white rounded-6" data-localscroll="true">
+                <span data-text={t('get-started')} className="btn-txt" data-transition-delay="true" data-delay-options='{"elements":  ".lqd-chars", "delayType":  "animation", "startDelay":  0, "delayBetween":  32.5}'>{t('get-started')}</span>
             </a>
             </div>
-            <div className="max-w-full banner-btn-right animation-element">
+            {/* <div className="max-w-full banner-btn-right animation-element">
             <a href="https://www.youtube.com/watch?v=WaSvMAl4zPw" className="fresco btn btn-solid btn-md btn-icon-left btn-hover-swp text-17 font-medium bg-primary text-white rounded-6 rounded-left-0">
                 <span data-text="Watch Video" className="btn-txt">{t('watch-video')} </span>
                 <span className="btn-icon">
@@ -62,7 +62,7 @@ export default async function Intro({locale, t}) {
                 <i aria-hidden="true" className="lqd-icn-ess icon-ion-ios-play"></i>
                 </span>
             </a>
-            </div>
+            </div> */}
         </div>
         </div>
     </section>

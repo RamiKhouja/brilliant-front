@@ -9,21 +9,21 @@ function Header() {
     const pathName = usePathname();
     const t = useTranslations('header');
 
-    // const toggleLocale = () => {
-    //     locale==='en'
-    //     ? router.push(pathName, { locale: 'ar' })
-    //     : router.push(pathName, { locale: 'en' })
-    // }
+    const toggleLocale = () => {
+        locale==='en'
+        ? router.push(pathName, { locale: 'ar' })
+        : router.push(pathName, { locale: 'en' })
+    }
 
-    const toggleEn = () => {
-        router.push(pathName, { locale: 'en' });
-    }
-    const toggleAr = () => {
-        router.push(pathName, { locale: 'ar' });
-    }
+    // const toggleEn = () => {
+    //     router.push(pathName, { locale: 'en' });
+    // }
+    // const toggleAr = () => {
+    //     router.push(pathName, { locale: 'ar' });
+    // }
   return (
     <header id="site-header" className="main-header main-header-overlay"  dir={locale=='ar'?'rtl':'ltr'}>
-        <div className="w-full static hidden lg:visible lg:flex xl:visible xl:flex items-center px-35 md:hidden xxl:flex">
+        <div className="w-full static hidden lg:visible lg:flex xl:visible xl:flex px-35 md:hidden xxl:flex items-center">
           <div className="w-25percent static flex flex-col items-start pointer-events-auto p-10">
             <div className="module-logo flex navbar-brand-plain py-30" id="size-logo">
               <a className="navbar-brand flex p-0 relative" href="/" rel="home">
@@ -60,44 +60,13 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className="w-25percent static flex flex-row items-center justify-end gap-15 p-10">
-            <div className="ld-dropdown-menu flex relative ld-dropdown-menu-underlined w-65" role="menubar">
-              <span className="ld-module-trigger" role="button" data-ld-toggle="true" data-bs-toggle="collapse" data-bs-target="#dropdown-language" aria-controls="dropdown-language" aria-expanded="false" data-toggle-options='{ "type":  "hoverFade" }'>
-                <span className="ld-module-trigger-txt text-15 font-medium text-white">
-                {locale=='en' 
-                ? (<span style={{fontFamily: "Eurostile"}}>English</span>)
-                : (<span style={{fontFamily: "Gess"}}>عربي</span>)
-                }
-                  <img width="48" height="48" src="/assets/images/demo/dark-ai/shape/Language1.png" alt="shape earth"/>
-                </span>
-              </span>
-              <div className="ld-module-dropdown left collapse absolute" id="dropdown-language" aria-expanded="false" role="menuitem">
-                <div className="ld-dropdown-menu-content">
-                  <ul className="text-14 link-black">
-                    {locale=='en'
-                    ? (
-                        <li style={{fontFamily: "Gess"}}>
-                            <a href='/ar/' onClick={()=>toggleAr()}>عربي</a>
-                        </li>
-                    )
-                    : (
-                        <li style={{fontFamily: "Eurostile"}}>
-                            <a href='/en/' onClick={()=>toggleEn()}>English</a>
-                        </li>
-                    )
-                    }
-                    
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* <div className="max-w-full">
-              <a href="#modal-subscribe" className="btn btn-solid btn-sm btn-hover-txt-switch-change btn-hover-txt-switch btn-hover-txt-switch-y btn-icon-shaped text-15 font-500 bg-transparent border-2 border-white-10 rounded-6 text-white" data-lity="#modal-subscribe">
-                <span data-text="Join Now" className="btn-txt">
-                  Join Hub
-                </span>
-              </a>
-            </div> */}
+          <div className="w-25percent static flex flex-row items-center justify-center  gap-15 p-10">
+            <span className="ld-module-trigger-txt text-20 font-medium text-white">
+              {locale=='en' 
+              ? (<a href='/ar/' className='text-white' type='button' onClick={()=>toggleLocale()}><span style={{fontFamily: "Gess"}}>عربي</span></a>)
+              : (<a href='/en/' className='text-white' type='button' onClick={()=>toggleLocale()}><span style={{fontFamily: "Eurostile"}}>English</span></a>)
+              }
+            </span>
           </div>
         </div>
         <div className="lqd-mobile-sec relative bg-black">
